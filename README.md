@@ -13,35 +13,23 @@ Just type in the name of the game you're eyeballing, and Steamman will unveil it
 Installation:
 
     Clone this repo:
-    Bash
 
-    git clone https://github.com/yourusername/steamman
-
-    Use code with caution. Learn more
+    git clone https://github.com/justintconnolly/steamman
 
 Build the binary:
-Bash
 
 cd steamman
 go build
 
-Use code with caution. Learn more
-
 Usage:
 
     Fire up Steamman:
-    Bash
 
     ./steamman
 
-    Use code with caution. Learn more
-
 Type in the game name:
-Bash
 
-Enter game name: Stardew Valley
-
-Use code with caution. Learn more
+./steamman --name "Stardew Valley"
 
     Steamman will reveal the price:
 
@@ -57,9 +45,5 @@ Features:
 Contributing:
 
 Steamman welcomes all contributions from fellow price-savvy gamers! Check out the Contributing Guidelines: CONTRIBUTING.md to get started.
-
-License:
-
-MIT License
 
 Now go forth and conquer those game deals, you savvy shopper!
