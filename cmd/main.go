@@ -43,8 +43,6 @@ func getPrice(id string) string {
 		fmt.Printf("Error: %v\n", err)
 		return ""
 	}
-
-	//price := SteamApp{}
 	price := map[string]interface{}{}
 	err = json.Unmarshal(body, &price)
 	if err != nil {
